@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "albert.mimusica",
+  "name": "Mi música",
+  "version": "1.0.0",
+  "author": "albert",
+  "description": "Reproductor de la biblioteca local (~/Music) con mpv: buscador, cola, aleatorio y volumen.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Mi música",
+    "description": "Reproduce tu música local desde la barra.",
+    "category": "Media",
+    "aliases": ["musica", "music", "mpv", "reproductor"],
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
