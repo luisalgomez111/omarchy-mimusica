@@ -12,8 +12,8 @@ import qs.Ui
 // manda a mpv es la lista que se está viendo.
 Panel {
   id: root
-  moduleName: "albert.mimusica"
-  ipcTarget: "albert.mimusica"
+  moduleName: "io.github.luisalgomez111.mimusica"
+  ipcTarget: "io.github.luisalgomez111.mimusica"
 
   readonly property string runDir: Quickshell.env("XDG_RUNTIME_DIR") + "/mimusica"
   readonly property string socketPath: runDir + "/mpv.sock"

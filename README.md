@@ -28,10 +28,10 @@ omarchy pkg add mpv
 omarchy plugin add https://github.com/luisalgomez111/omarchy-mimusica --enable
 ```
 
-Para actualizar: `omarchy plugin update albert.mimusica`
-Para quitarlo: `omarchy plugin remove albert.mimusica`
+Para actualizar: `omarchy plugin update io.github.luisalgomez111.mimusica`
+Para quitarlo: `omarchy plugin remove io.github.luisalgomez111.mimusica`
 
-Abrir el panel por atajo o script: `omarchy shell albert.mimusica toggle`
+Abrir el panel por atajo o script: `omarchy shell io.github.luisalgomez111.mimusica toggle`
 
 ---
 

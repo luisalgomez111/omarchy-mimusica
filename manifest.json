@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "albert.mimusica",
+  "id": "io.github.luisalgomez111.mimusica",
   "name": "Mi música",
   "version": "1.0.0",
-  "author": "albert",
+  "author": "luisalgomez111",
   "description": "Reproductor de la biblioteca local (~/Music) con mpv: buscador, cola, aleatorio y volumen.",
   "kinds": ["bar-widget"],
   "entryPoints": {
